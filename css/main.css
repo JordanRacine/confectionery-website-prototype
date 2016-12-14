@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #dbd6cf;
+  background-color: rgb (60, 28, 13);
 }
 
 *, *::before, *::after {
@@ -74,9 +74,50 @@ nav li {
 }
 
 .contact {
-  border: 2px solid;
+  text-align: center;
 }
 
 .location {
   border-bottom-width: 4px;
+}
+
+.icons{
+    display:inline-block;
+    width: 64px;
+    height: 64px;
+   }
+
+   th {
+     text-align: center;
+   }
+
+   td {
+     text-align: left;
+   }
+
+   footer {
+     background-color: #ccc;
+     font-size: .7rem;
+     padding-top: .3rem;
+     padding-bottom: .3rem;
+   }
+
+   footer p {
+     margin-left: .5rem;
+   }
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  .btn a {
+    margin-left: auto;
+   margin-right: auto;
+    position: fixed;
+    top: 0.8%;
+    width: 8%;
+  }
+
 }
