@@ -39,22 +39,15 @@ body {
 }
 
 .nav {
-  border-top: 1px solid #3f8c7e;
-  border-bottom: 1px solid #3f8c7e;
-  border-right: 1px solid #3f8c7e;
   float: left;
   width: 100%;
   background-color: #4da696;
   text-align: center;
   display: inline-block;
-  border-radius: 5px;
   padding: .6em;
   margin: auto;
-  margin: auto;
-  padding: 0;
-  list-style-type: none;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family:  sans-serif;
 }
 
 nav a {
@@ -66,7 +59,7 @@ nav a {
   color: #fff;
 }
 
-nav a:hover {
+.nav a:hover {
   background-color: #e18942;
   color: #fff;
 }
@@ -75,6 +68,7 @@ nav a:hover {
     width: 100%;
       height: auto;
       float: left;
+      display: block;
     }
 
 .img-special{
@@ -104,7 +98,7 @@ nav a:hover {
 .location {
   text-align: center;
   border-width: 2px;
-border-radius: 8px;
+border-radius: 6px;
 border-style: solid;
 }
 
@@ -143,16 +137,16 @@ footer p {
   background-position: center;
    position: absolute;
    text-align: center;
-   top: 200px;
+   top: 300px;
     left: 0;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 figcaption {
   text-align: center;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .centered-table {
