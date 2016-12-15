@@ -140,10 +140,17 @@ footer p {
 }
 
 .btn-deal {
+  background-position: center;
    position: absolute;
    text-align: center;
    top: 200px;
     left: 0;
     width: 100%;
     font-size: 40px;
+}
+
+figcaption {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
 }
