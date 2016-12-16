@@ -11,23 +11,23 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #FEFCE8;
+  background-color: #fefce8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1, h3{
-  font-family: 'Dancing Script', cursive;
+h1, h3 {
+  font-family: "Dancing Script", cursive;
   text-align: center;
-  font-size: 40px;
+  font-size: 3rem;
   margin: 0;
   font-weight: bold;
 }
 
-header{
-  background-color: #F5F1DE;
+header {
+  background-color: #f5f1de;
 }
 
 header li {
@@ -35,70 +35,73 @@ header li {
 }
 
 body {
-  margin: 0
+  margin: 0;
 }
 
 .nav {
-  float: left;
   width: 100%;
-  background-color: #FEFCE8;
+  background-color: #fefce8;
   text-align: center;
   display: inline-block;
   padding: .6em;
+  margin: 1em;
   margin: auto;
   line-height: 1.5;
-  font-family:  sans-serif;
+  font-family: sans-serif;
+  box-sizing: inherit;
 }
 
 nav a {
   display: inline-block;
   padding: .6em;
-  background-color: #67C5C2;
+  background-color: #67c5c2;
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: #e18942;
   color: #fff;
 }
 
 .img-milk {
-    width: 100%;
-      height: auto;
-      float: left;
-    }
-
-.img-special{
-        width: 100%;
-          height: auto;
-          float: right;
-        }
-
-.img-flex{
   width: 100%;
-    height: auto;
-  }
+  height: auto;
+  float: left;
+}
+
+.img-special {
+  width: 100%;
+  height: auto;
+  float: right;
+}
+
+.img-flex {
+  width: 100%;
+  height: auto;
+}
+
 .img-review {
   width: 100%;
-    height: auto;
+  height: auto;
 }
 
 .reviews {
   text-align: center;
 }
 
-.img-location{
-    width: 100%;
-      height: auto;
-    }
+.img-location {
+  width: 100%;
+  height: auto;
+}
 
 .location {
   text-align: center;
   border-width: 2px;
-border-radius: 8px;
-border-style: solid;
+  border-radius: 8px;
+  border-style: solid;
+  display: block;
 }
 
 .hrs {
@@ -108,18 +111,19 @@ border-style: solid;
   text-align: center;
 }
 
-.img-contact{
+.img-contact {
   width: 100%;
-    height: auto;
+  height: auto;
 }
+
 .contact {
-text-align: center;
-background-color: #fff;
+  text-align: center;
+  background-color: #fff;
 }
 
 footer {
   text-align: center;
-  background-color: #F5F1DE;
+  background-color: #f5f1de;
   font-size: .9rem;
   padding: 2rem;
 }
@@ -129,28 +133,28 @@ footer p {
 }
 
 .banner {
-   position: relative;
+  position: relative;
 }
 
 .btn-deal {
   background-position: center;
-   position: absolute;
-   text-align: center;
-   top: 300px;
-    left: 0;
-    width: 100%;
-    font-size: 30px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  font-size: 3rem;
 }
 
 figcaption {
   text-align: center;
-  color: #3D2117;
-  font-size: 1.5em;
+  color: #3d2117;
+  font-size: 1.5rem;
 }
 
 .centered-table {
-   margin-left: auto;
-   margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 60em) {
@@ -159,7 +163,6 @@ figcaption {
     font-size: 120%;
     line-height: 1.5;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -168,5 +171,4 @@ figcaption {
     font-size: 130%;
     line-height: 1.5;
   }
-
 }
