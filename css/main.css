@@ -47,10 +47,10 @@ body {
   background-color: #fff;
   text-align: center;
   display: inline-block;
-  padding: .6em;
-  margin: 2em;
+  padding: 0;
+  margin: 0;
   margin: auto;
-  line-height: 1.5;
+  line-height: 1em;
   font-family: sans-serif;
   box-sizing: inherit;
 }
@@ -143,16 +143,6 @@ footer p {
   overflow: hidden;
 }
 
-.btn-deal {
-  background-position: center;
-  position: absolute;
-  text-align: center;
-  top: 300px;
-  left: 0;
-  width: 100%;
-  font-size: 3rem;
-}
-
 figcaption {
   text-align: center;
   color: #3d2117;
@@ -190,10 +180,10 @@ ul {
   list-style-type: none;
 }
 
-.logo{
-width: 20%;
-  margin:0;
-padding:0;
+.logos{
+  overflow: hidden;
+margin: 0 auto;
+max-width: 25em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -253,9 +243,6 @@ padding:0;
   }
 
 }
-  .review p {
-    max-width: 1000px;
-  }
 
 
 @media only screen and (min-width: 90em) {
@@ -267,8 +254,6 @@ padding:0;
 ul {
   text-decoration: none;
 }
-  .review {
-    padding-left: 6rem;
-  }
+
 
 }
