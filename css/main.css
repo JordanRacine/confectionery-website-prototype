@@ -48,15 +48,14 @@ body {
   text-align: center;
   display: inline-block;
   padding: 0;
-  margin-bottom: : .5em;
   margin: auto;
-  line-height: 1em;
+  line-height: .5em;
   font-family: sans-serif;
   box-sizing: inherit;
 }
 
 nav a {
-  display: inline-block;
+  display: block;
   padding: .6em;
   background-color: #948b8e;
   text-decoration: none;
@@ -222,7 +221,7 @@ position: static;
   }
 
   .nav {
-    display: inline-block;
+    display: block;
     position: static;
     text-align: center;
   }
