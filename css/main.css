@@ -61,7 +61,7 @@ nav a {
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
-  margin-bottom: : .5em;
+  margin-bottom: .5em;
 }
 
 nav a:hover {
@@ -238,4 +238,6 @@ position: static;
 ul {
   text-decoration: none;
   display: inline-block;
+}
+
 }
